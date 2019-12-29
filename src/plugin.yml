@@ -1,0 +1,56 @@
+name: Monitor
+version: 0.1.1
+author: KohyNetwork
+main: net.kohy.Monitor
+commands:
+  mod:
+    permission: monitor.mod
+    description: Moderator mode activation command
+    aliases:
+      - kohymod
+      - km
+  report:
+    description: Command to report a player on the server
+    aliases:
+      - rep
+      - kohyreport
+  reportban:
+    permission: monitor.report.ban
+    description: To ban a player from using reports
+    aliases:
+      - rb
+      - kohyreportban
+  reportunban:
+    permission: monitor.report.ban
+    description: To unban a player from using reports
+    aliases:
+      - rub
+      - kohyreportunban
+  ks:
+    permission: monitor.sanction
+    description: Command to punish a player
+    aliases:
+      - kohysanction
+      - ksanction
+  myinfo:
+    permission: monitor.state.info
+    description: Command to show the actual state of the moderator
+    aliases:
+      - minfo
+      - stateinfo
+      - sinfo
+  reportclear:
+    permission: monitor.report.clear
+    description: Command to clear the number of reports that a player has.
+    aliases:
+      - rc
+      - rclear
+      - kohyreportclear
+      - kohyreportclear
+  reportinfo:
+    permission: monitor.report.info
+    description: Command to get the number of time a player was reported
+    aliases:
+      - kohyreportinfo
+      - rinfo
+      - ri
